@@ -11,6 +11,7 @@ This repository documents my progress learning C++ from the ground up.
 | `adding.cpp` | Addition practice |
 | `fizzBuzz.cpp` | FizzBuzz — prints Fizz, Buzz, or FizzBuzz for numbers 1 to n |
 | `largestOfThree.cpp` | Largest of three — prints the largest of three input numbers |
+| `multiplacation.cpp` | Multiplication table — prints the multiplication table of n from 1 to 10 |
 | `apple.cpp` | Apple counting problem |
 | `applesAndOranges.cpp` | Apples and oranges problem |
 | `average.cpp` | Computing averages |
