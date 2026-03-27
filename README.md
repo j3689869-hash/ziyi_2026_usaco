@@ -10,6 +10,7 @@ This repository documents my progress learning C++ from the ground up.
 | `add.cpp` | Sum of numbers from 1 to n (or n to -1 for negatives) using a function |
 | `adding.cpp` | Addition practice |
 | `fizzBuzz.cpp` | FizzBuzz — prints Fizz, Buzz, or FizzBuzz for numbers 1 to n |
+| `largestOfThree.cpp` | Largest of three — prints the largest of three input numbers |
 | `apple.cpp` | Apple counting problem |
 | `applesAndOranges.cpp` | Apples and oranges problem |
 | `average.cpp` | Computing averages |
