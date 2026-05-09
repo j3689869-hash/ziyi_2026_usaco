@@ -1,95 +1,86 @@
-# Ziyi's USACO Programming Journey (2026)
+# Ziyi's USACO Programming Journey
 
-A collection of C++ programs written while learning competitive programming concepts.
-
----
+C++ programs written while learning competitive programming for USACO.
 
 ## Lesson 1 — Basics
-| File | Description |
-|------|-------------|
-| hello.cpp | Hello world |
-| add.cpp | Addition |
-| adding.cpp | Adding numbers |
-| apple.cpp | Apple problem |
-| applesAndOranges.cpp | Apples and oranges |
-| cowCelebration.cpp | Cow celebration |
-| milesRan.cpp | Miles ran |
-| multiplacation.cpp | Multiplication |
-| numerical.cpp | Numerical operations |
-
----
+- `hello.cpp` — Hello World
+- `add.cpp`, `adding.cpp` — Addition
+- `apple.cpp`, `applesAndOranges.cpp` — Apple counting problems
+- `cowCelebration.cpp` — Cow celebration
+- `milesRan.cpp` — Miles ran calculation
+- `multiplacation.cpp` — Multiplication
+- `numerical.cpp` — Numerical operations
 
 ## Lesson 2 — Conditionals
-| File | Description |
-|------|-------------|
-| average.cpp | Compute average |
-| esrever.cpp | Reverse |
-| largestOfThree.cpp | Largest of three numbers |
-| leapYear.cpp | Leap year check |
-| notes.cpp | Lesson notes |
-
----
+- `average.cpp` — Average calculation
+- `largestOfThree.cpp` — Find largest of three numbers
+- `leapYear.cpp` — Leap year checker
+- `esrever.cpp` — Reverse logic
+- `notes.cpp` — Lesson notes
 
 ## Lesson 3 — Loops
-| File | Description |
-|------|-------------|
-| fizzBuzz.cpp | FizzBuzz |
-| homework.cpp | Homework problem |
-| invertedABCs.cpp | Inverted ABCs pattern |
-| notes1.cpp | Lesson notes |
-| practice.cpp | Loop practice |
-| problem.cpp | Loop problem |
-| triangle.cpp | Triangle pattern |
+- `fizzBuzz.cpp` — FizzBuzz
+- `triangle.cpp` — Triangle patterns
+- `invertedABCs.cpp` — Inverted ABC pattern
+- `homework.cpp`, `practice.cpp`, `problem.cpp` — Practice problems
+- `notes1.cpp` — Lesson notes
 
----
-
-## Lesson 4 — Math & Number Theory
-| File | Description |
-|------|-------------|
-| factorial.cpp | Find largest factorial ≤ 2000 |
-| fractions.cpp | Harmonic series (P1035) |
-| reverse.cpp | Reverse digits |
-| seperate.cpp | Separate digits |
-| swimming.cpp | Swimming steps simulation |
-| gcd.cpp | Greatest common divisor |
-| prime.cpp | GCD via Euclidean algorithm |
-| primeSeive.cpp | Prime checking |
-| palindromicPrimes.cpp | Palindromic prime numbers |
-| factorization.cpp | Prime factorization (P1075) |
-| P1307.cpp | Number reversal (negative support) |
-| P5720.cpp | Count divisions by 2 |
-| notes2.cpp | Lesson notes |
-
----
+## Lesson 4 — Math & Functions
+- `prime.cpp`, `primeSeive.cpp` — Prime number checking and sieve
+- `palindromicPrimes.cpp` — Palindromic prime numbers
+- `factorial.cpp` — Factorial calculation
+- `factorization.cpp` — Prime factorization
+- `gcd.cpp` — Greatest common divisor
+- `fractions.cpp` — Fraction operations
+- `reverse.cpp` — Reverse a number
+- `seperate.cpp` — Separate digits
+- `swimming.cpp` — Swimming problem
+- `P1307.cpp`, `P5720.cpp` — Luogu problems
+- `notes2.cpp` — Lesson notes
 
 ## Lesson 5 — Arrays
-| File | Description |
-|------|-------------|
-| testArray.cpp | Array basics practice |
-| markingAndTesting.cpp | Find max and min in array |
-| arrayPractice.cpp | Array practice |
-| movingAverage.cpp | Moving average |
-| notesForLesson5.cpp | Lesson notes |
-| judges.cpp | Judges scoring |
-| P8717.cpp | Max, min, and average (P8717) |
-| B4074.cpp | Grade statistics (B4074) |
-| P1046.CPP | Apple picking (P1046) |
-| P1047.cpp | Trees on a road (P1047) |
-| P1427.cpp | Reverse sequence until 0 (P1427) |
-| P1428.cpp | Count smaller previous elements (P1428) |
-| P2550.cpp | Lottery prize checker (P2550) |
-| P3383.cpp | K-th prime number with sieve (P3383) |
-| P5727.cpp | Collatz conjecture reverse (P5727) |
-| openingAndClosingDoors.cpp | Opening and closing doors (perfect squares) |
-| openingAndClosingDoors2.cpp | Opening and closing doors (brute force) |
+- `P3383.cpp` — K-th prime (sieve of Eratosthenes)
+- `P8717.cpp` — Max, min, average
+- `B4074.cpp` — Grade statistics
+- `P1046.CPP`, `P1047.cpp` — Apple height problems
+- `P1427.cpp` — Reverse until 0
+- `P1428.cpp` — Array problem
+- `P2550.cpp` — Lottery prize checker
+- `P5727.cpp` — Collatz conjecture
+- `openingAndClosingDoors.cpp`, `openingAndClosingDoors2.cpp` — Perfect squares solution
+- `arrayPractice.cpp`, `testArray.cpp` — Array practice
+- `movingAverage.cpp` — Moving average
+- `judges.cpp`, `markingAndTesting.cpp` — Practice problems
+- `notesForLesson5.cpp` — Lesson notes
 
----
+## Lesson 6 — Sliding Window & More Arrays
+- `closedAndOpenedLights.cpp` — Lights on/off (perfect squares)
+- `compressionTechnique.cpp` — Data compression
+- `countingDigits.cpp` — Count digit occurrences
+- `mentalAbacusTest.cpp` — Mental abacus test
+- `slidingWindow.cpp` — Sliding window technique
 
-## Lesson 6 — Advanced Arrays
-| File | Description |
-|------|-------------|
-| countingDigits.cpp | Count digit occurrences in range |
-| mentalAbacusTest.cpp | Count numbers equal to sum of two others |
-| closedAndOpenedLights.cpp | Lights open/close simulation |
-| compressionTechnique.cpp | Compression technique |
-| slidingWindow.cpp | Sliding window minimum sum |
+## Lesson 7 — 2D Arrays & Matrices
+- `spiral.cpp` — Fill matrix in spiral order
+- `biggestInRowSmallestInColumn.cpp` — Saddle point finder
+- `90Degrees.cpp` — Rotate matrix 90 degrees
+- `diagonalsSum.cpp` — Sum of matrix diagonals
+- `pascalTriangle.cpp` — Pascal's triangle
+- `sparseMatrix.cpp` — Sparse matrix
+- `UFO.cpp` — UFO string problem
+
+## Lesson 8 — Strings & Math
+- `histogram.cpp` — Letter frequency histogram
+- `distance.cpp` — Distance calculation
+- `fridayTheThirteenth.cpp` — Friday the 13th finder
+- `monkey.cpp` — Monkey problem
+
+## Lesson 9 — Maps, Sets & USACO Problems
+- `pairs.cpp` — Count pairs with difference C (map frequency)
+- `candyCanes.cpp` — USACO candy cane problem
+- `cowGymnastics.cpp` — USACO cow gymnastics (consistent rankings)
+- `mailboxes.cpp` — USACO mailboxes (minimum unique window K)
+- `shellGame.cpp` — USACO shell game
+- `words.cpp` — Word frequency with map
+- `moneyYes.cpp` — Money distribution problem
+- `1.cpp` — Vector practice and notes
