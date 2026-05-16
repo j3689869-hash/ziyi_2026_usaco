@@ -83,4 +83,18 @@ C++ programs written while learning competitive programming for USACO.
 - `shellGame.cpp` — USACO shell game
 - `words.cpp` — Word frequency with map
 - `moneyYes.cpp` — Money distribution problem
+- `countOfChars.cpp` — Count character occurrences in two strings
+- `uniqueCharsInParagraph.cpp` — Count unique characters in a paragraph
 - `1.cpp` — Vector practice and notes
+
+## Lesson 10 — Structs & Custom Sorting
+- `Students.cpp` — Basic struct definition and usage
+- `rankingStudentsByAge.cpp` — Sort students by age, height, score using custom comparators
+- `sortByAbsoluteValue.cpp` — Sort by absolute value and mod 5
+- `sortEvenBeforeOdd.cpp` — Sort even numbers before odd numbers
+- `sortByMultipleCriteria.cpp` — Sort by multiple fields (age then name)
+- `sortByScore.cpp` — Sort students by score
+- `primeFirstAndDescending.cpp` — Sort primes first then descending
+- `stackingCowsToABookshelf.cpp` — USACO greedy problem with sorting
+- `ticTacToeTeams.cpp` — USACO team tic tac toe (set-based win detection)
+- `measuringMilk.cpp` — USACO milk measurement (tracking leaders with map and set)
