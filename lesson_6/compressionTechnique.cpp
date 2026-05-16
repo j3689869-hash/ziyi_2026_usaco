@@ -21,7 +21,7 @@ int main(){
                 cout << 1;
             }
             if(globalCounting % n == 0){
-                cout << "/n";
+                cout << "\n";
             }
         }
         isZero = !isZero;

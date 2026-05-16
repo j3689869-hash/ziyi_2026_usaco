@@ -7,7 +7,7 @@ int main() {
     cin >> n;
 
     int arr[1000] = {};
-    bool booArr[n] = {};
+    bool booArr[1000] = {};
 
     for(int i = 0; i < n; i++){
         cin >> arr[i];
@@ -26,6 +26,6 @@ int main() {
             }
         }
     }
-    cout << counting << " ";
+    cout << counting;
     return 0;     
 }

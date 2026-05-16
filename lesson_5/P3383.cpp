@@ -9,10 +9,10 @@ int main(){
     int n, q;
     cin >> n >> q;
 
-    // sieve of eratosthenes
     for(int i = 2; i <= n; i++){
-        if(!isComposite[i]){            // if i is prime
-            primes[count++] = i;        // store it
+        if(!isComposite[i]){
+            int count;
+            primes[count++] = i;
             for(long long j = (long long)i*i; j <= n; j += i){  // mark multiples
                 isComposite[j] = true;
             }

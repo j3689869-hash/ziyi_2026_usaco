@@ -10,7 +10,7 @@ int main(){
             int cow;
             cin >> cow;
             arr[amount][cow] = rank;
-        }
+        }//input
     }
     for(int i = 1; i <= n; i++){
         for(int j = i + 1; j <= n; j++){
@@ -23,12 +23,12 @@ int main(){
                 if(arr[m][j] > arr[m][i]){
                     jBetter = false;
                 }
-            }
+            }//find comparison
             if(iBetter || jBetter){
             answer++;
-            }
+            }//adds to answer
         }
     } 
-    cout << answer << endl;
+    cout << answer << endl;//print
     return 0;
 }
